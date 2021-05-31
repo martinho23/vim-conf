@@ -6,6 +6,7 @@
 # Last Modified By  : jfarinha <ajoni844@gmail.com>
 
 
+cp ./.vimrc ~
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 cd ~/.vim/bundle/YouCompleteMe
